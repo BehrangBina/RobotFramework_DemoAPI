@@ -21,6 +21,7 @@ Init Variables
     Set Suite Variable            ${STATE_NAME}                                 ${empty}
     Set Suite Variable            ${LOCALITY}                                   ${empty}
     Set Suite Variable            ${CITY_NAME}                                  ${empty}
+    Set Suite Variable            ${ABBREVIATION}                               ${empty}
  
 
 Convert Data From File
@@ -41,3 +42,6 @@ Convert Data From File
            
         ${tmp} =  Get From Dictionary	${v}  CITY_NAME
         Set Suite Variable        ${CITY_NAME}  ${tmp}   
+        
+        ${tmp} =  Get From Dictionary	${v}  ABBREVIATION
+        Set Suite Variable        ${ABBREVIATION}  ${tmp}   
