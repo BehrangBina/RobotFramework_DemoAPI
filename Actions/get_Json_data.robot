@@ -40,3 +40,10 @@ Get State Abbreviation
     ${stateAbbr} =    Get From List   ${v}    0
     Log      ${stateAbbr}
     [Return]    ${stateAbbr}
+
+Get Locality
+    ${value}=	Get Value From Json	${json_object}	$..locality
+    ${v} =	Convert To List	${value}
+    ${stateAbbr} =    Get From List   ${v}    0
+    Log      ${stateAbbr}
+    [Return]    ${stateAbbr}

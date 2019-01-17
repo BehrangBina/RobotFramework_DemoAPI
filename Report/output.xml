@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20190117 15:51:49.829" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<robot generated="20190117 15:58:47.885" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
 <suite source="D:\Avocado\AVOCADO CONSULTING SERVICES PTY LTD\Solution Delivery - Clients and Projects\South\BenBina\RobotFrameWork Demo\Demo-API\TestCases\AusPost.robot" id="s1" name="AusPost">
 <test id="s1-t1" name="Validate Data From Post API">
 <kw name="Convert Data From File" library="Excel_Adaptor">
@@ -10,8 +10,8 @@
 <arg>${URL}</arg>
 <arg>${empty}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.376" level="INFO">${URL} = </msg>
-<status status="PASS" endtime="20190117 15:51:50.376" starttime="20190117 15:51:50.376"></status>
+<msg timestamp="20190117 15:58:48.431" level="INFO">${URL} = </msg>
+<status status="PASS" endtime="20190117 15:58:48.431" starttime="20190117 15:58:48.429"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -19,8 +19,8 @@
 <arg>${POST_CODE}</arg>
 <arg>${empty}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.377" level="INFO">${POST_CODE} = </msg>
-<status status="PASS" endtime="20190117 15:51:50.377" starttime="20190117 15:51:50.376"></status>
+<msg timestamp="20190117 15:58:48.432" level="INFO">${POST_CODE} = </msg>
+<status status="PASS" endtime="20190117 15:58:48.432" starttime="20190117 15:58:48.431"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -28,8 +28,8 @@
 <arg>${STATE_NAME}</arg>
 <arg>${empty}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.378" level="INFO">${STATE_NAME} = </msg>
-<status status="PASS" endtime="20190117 15:51:50.378" starttime="20190117 15:51:50.377"></status>
+<msg timestamp="20190117 15:58:48.433" level="INFO">${STATE_NAME} = </msg>
+<status status="PASS" endtime="20190117 15:58:48.433" starttime="20190117 15:58:48.432"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -37,8 +37,8 @@
 <arg>${LOCALITY}</arg>
 <arg>${empty}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.379" level="INFO">${LOCALITY} = </msg>
-<status status="PASS" endtime="20190117 15:51:50.379" starttime="20190117 15:51:50.378"></status>
+<msg timestamp="20190117 15:58:48.434" level="INFO">${LOCALITY} = </msg>
+<status status="PASS" endtime="20190117 15:58:48.434" starttime="20190117 15:58:48.433"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -46,10 +46,10 @@
 <arg>${CITY_NAME}</arg>
 <arg>${empty}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.380" level="INFO">${CITY_NAME} = </msg>
-<status status="PASS" endtime="20190117 15:51:50.380" starttime="20190117 15:51:50.379"></status>
+<msg timestamp="20190117 15:58:48.434" level="INFO">${CITY_NAME} = </msg>
+<status status="PASS" endtime="20190117 15:58:48.435" starttime="20190117 15:58:48.434"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.380" starttime="20190117 15:51:50.375"></status>
+<status status="PASS" endtime="20190117 15:58:48.435" starttime="20190117 15:58:48.429"></status>
 </kw>
 <kw name="Get Excel Enteries" library="Excel_Adaptor">
 <assign>
@@ -60,15 +60,15 @@
 <assign>
 <var>${my_dict}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.381" level="INFO">${my_dict} = {}</msg>
-<status status="PASS" endtime="20190117 15:51:50.381" starttime="20190117 15:51:50.380"></status>
+<msg timestamp="20190117 15:58:48.435" level="INFO">${my_dict} = {}</msg>
+<status status="PASS" endtime="20190117 15:58:48.436" starttime="20190117 15:58:48.435"></status>
 </kw>
 <kw name="Open Excel" library="ExcelLibrary">
 <doc>Opens the Excel file from the path provided in the file name parameter.</doc>
 <arguments>
 <arg>post.xls</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.389" starttime="20190117 15:51:50.381"></status>
+<status status="PASS" endtime="20190117 15:58:48.443" starttime="20190117 15:58:48.436"></status>
 </kw>
 <kw name="Get Row Count" library="ExcelLibrary">
 <doc>Returns the specific number of rows of the sheet name specified.</doc>
@@ -78,8 +78,8 @@
 <assign>
 <var>${rowCount}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.389" level="INFO">${rowCount} = 9</msg>
-<status status="PASS" endtime="20190117 15:51:50.389" starttime="20190117 15:51:50.389"></status>
+<msg timestamp="20190117 15:58:48.445" level="INFO">${rowCount} = 9</msg>
+<status status="PASS" endtime="20190117 15:58:48.445" starttime="20190117 15:58:48.443"></status>
 </kw>
 <kw name="Get Column Count" library="ExcelLibrary">
 <doc>Returns the specific number of columns of the sheet name specified.</doc>
@@ -89,8 +89,8 @@
 <assign>
 <var>${columnCount}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.390" level="INFO">${columnCount} = 2</msg>
-<status status="PASS" endtime="20190117 15:51:50.390" starttime="20190117 15:51:50.389"></status>
+<msg timestamp="20190117 15:58:48.446" level="INFO">${columnCount} = 2</msg>
+<status status="PASS" endtime="20190117 15:58:48.446" starttime="20190117 15:58:48.445"></status>
 </kw>
 <kw type="for" name="${i} IN RANGE [ 2 | ${rowCount} ]">
 <kw type="foritem" name="${i} = 2">
@@ -103,8 +103,8 @@
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.391" level="INFO">${v} = [('A3', u'URL'), ('B3', u'http://v0.postcodeapi.com.au/suburbs/')]</msg>
-<status status="PASS" endtime="20190117 15:51:50.391" starttime="20190117 15:51:50.390"></status>
+<msg timestamp="20190117 15:58:48.447" level="INFO">${v} = [('A3', u'URL'), ('B3', u'http://v0.postcodeapi.com.au/suburbs/')]</msg>
+<status status="PASS" endtime="20190117 15:58:48.447" starttime="20190117 15:58:48.446"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -116,8 +116,8 @@
 <assign>
 <var>${key}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.391" level="INFO">${key} = URL</msg>
-<status status="PASS" endtime="20190117 15:51:50.391" starttime="20190117 15:51:50.391"></status>
+<msg timestamp="20190117 15:58:48.448" level="INFO">${key} = URL</msg>
+<status status="PASS" endtime="20190117 15:58:48.448" starttime="20190117 15:58:48.447"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -129,8 +129,8 @@
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.392" level="INFO">${value} = http://v0.postcodeapi.com.au/suburbs/</msg>
-<status status="PASS" endtime="20190117 15:51:50.392" starttime="20190117 15:51:50.392"></status>
+<msg timestamp="20190117 15:58:48.448" level="INFO">${value} = http://v0.postcodeapi.com.au/suburbs/</msg>
+<status status="PASS" endtime="20190117 15:58:48.448" starttime="20190117 15:58:48.448"></status>
 </kw>
 <kw name="Set To Dictionary" library="Collections">
 <doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
@@ -139,9 +139,9 @@
 <arg>${key}</arg>
 <arg>${value}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.393" starttime="20190117 15:51:50.393"></status>
+<status status="PASS" endtime="20190117 15:58:48.449" starttime="20190117 15:58:48.448"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.393" starttime="20190117 15:51:50.390"></status>
+<status status="PASS" endtime="20190117 15:58:48.449" starttime="20190117 15:58:48.446"></status>
 </kw>
 <kw type="foritem" name="${i} = 3">
 <kw name="Get Row Values" library="ExcelLibrary">
@@ -153,8 +153,8 @@
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.394" level="INFO">${v} = [('A4', u'POST_CODE'), ('B4', 3000.0)]</msg>
-<status status="PASS" endtime="20190117 15:51:50.395" starttime="20190117 15:51:50.394"></status>
+<msg timestamp="20190117 15:58:48.449" level="INFO">${v} = [('A4', u'POST_CODE'), ('B4', 3000.0)]</msg>
+<status status="PASS" endtime="20190117 15:58:48.449" starttime="20190117 15:58:48.449"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -166,8 +166,8 @@
 <assign>
 <var>${key}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.395" level="INFO">${key} = POST_CODE</msg>
-<status status="PASS" endtime="20190117 15:51:50.395" starttime="20190117 15:51:50.395"></status>
+<msg timestamp="20190117 15:58:48.450" level="INFO">${key} = POST_CODE</msg>
+<status status="PASS" endtime="20190117 15:58:48.450" starttime="20190117 15:58:48.449"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -179,8 +179,8 @@
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.396" level="INFO">${value} = 3000.0</msg>
-<status status="PASS" endtime="20190117 15:51:50.396" starttime="20190117 15:51:50.395"></status>
+<msg timestamp="20190117 15:58:48.450" level="INFO">${value} = 3000.0</msg>
+<status status="PASS" endtime="20190117 15:58:48.450" starttime="20190117 15:58:48.450"></status>
 </kw>
 <kw name="Set To Dictionary" library="Collections">
 <doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
@@ -189,9 +189,9 @@
 <arg>${key}</arg>
 <arg>${value}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.396" starttime="20190117 15:51:50.396"></status>
+<status status="PASS" endtime="20190117 15:58:48.450" starttime="20190117 15:58:48.450"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.396" starttime="20190117 15:51:50.393"></status>
+<status status="PASS" endtime="20190117 15:58:48.450" starttime="20190117 15:58:48.449"></status>
 </kw>
 <kw type="foritem" name="${i} = 4">
 <kw name="Get Row Values" library="ExcelLibrary">
@@ -203,8 +203,8 @@
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.397" level="INFO">${v} = [('A5', u'STATE_NAME'), ('B5', u'Victoria')]</msg>
-<status status="PASS" endtime="20190117 15:51:50.397" starttime="20190117 15:51:50.396"></status>
+<msg timestamp="20190117 15:58:48.451" level="INFO">${v} = [('A5', u'STATE_NAME'), ('B5', u'Victoria')]</msg>
+<status status="PASS" endtime="20190117 15:58:48.451" starttime="20190117 15:58:48.451"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -216,8 +216,8 @@
 <assign>
 <var>${key}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.397" level="INFO">${key} = STATE_NAME</msg>
-<status status="PASS" endtime="20190117 15:51:50.397" starttime="20190117 15:51:50.397"></status>
+<msg timestamp="20190117 15:58:48.451" level="INFO">${key} = STATE_NAME</msg>
+<status status="PASS" endtime="20190117 15:58:48.451" starttime="20190117 15:58:48.451"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -229,8 +229,8 @@
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.398" level="INFO">${value} = Victoria</msg>
-<status status="PASS" endtime="20190117 15:51:50.398" starttime="20190117 15:51:50.397"></status>
+<msg timestamp="20190117 15:58:48.452" level="INFO">${value} = Victoria</msg>
+<status status="PASS" endtime="20190117 15:58:48.452" starttime="20190117 15:58:48.452"></status>
 </kw>
 <kw name="Set To Dictionary" library="Collections">
 <doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
@@ -239,9 +239,9 @@
 <arg>${key}</arg>
 <arg>${value}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.398" starttime="20190117 15:51:50.398"></status>
+<status status="PASS" endtime="20190117 15:58:48.452" starttime="20190117 15:58:48.452"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.398" starttime="20190117 15:51:50.396"></status>
+<status status="PASS" endtime="20190117 15:58:48.452" starttime="20190117 15:58:48.450"></status>
 </kw>
 <kw type="foritem" name="${i} = 5">
 <kw name="Get Row Values" library="ExcelLibrary">
@@ -253,8 +253,8 @@
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.399" level="INFO">${v} = [('A6', u'ABBREVIATION'), ('B6', u'VIC')]</msg>
-<status status="PASS" endtime="20190117 15:51:50.399" starttime="20190117 15:51:50.399"></status>
+<msg timestamp="20190117 15:58:48.453" level="INFO">${v} = [('A6', u'ABBREVIATION'), ('B6', u'VIC')]</msg>
+<status status="PASS" endtime="20190117 15:58:48.453" starttime="20190117 15:58:48.452"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -266,8 +266,8 @@
 <assign>
 <var>${key}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.399" level="INFO">${key} = ABBREVIATION</msg>
-<status status="PASS" endtime="20190117 15:51:50.399" starttime="20190117 15:51:50.399"></status>
+<msg timestamp="20190117 15:58:48.454" level="INFO">${key} = ABBREVIATION</msg>
+<status status="PASS" endtime="20190117 15:58:48.454" starttime="20190117 15:58:48.453"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -279,8 +279,8 @@
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.400" level="INFO">${value} = VIC</msg>
-<status status="PASS" endtime="20190117 15:51:50.400" starttime="20190117 15:51:50.400"></status>
+<msg timestamp="20190117 15:58:48.454" level="INFO">${value} = VIC</msg>
+<status status="PASS" endtime="20190117 15:58:48.454" starttime="20190117 15:58:48.454"></status>
 </kw>
 <kw name="Set To Dictionary" library="Collections">
 <doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
@@ -289,9 +289,9 @@
 <arg>${key}</arg>
 <arg>${value}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.400" starttime="20190117 15:51:50.400"></status>
+<status status="PASS" endtime="20190117 15:58:48.455" starttime="20190117 15:58:48.454"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.400" starttime="20190117 15:51:50.399"></status>
+<status status="PASS" endtime="20190117 15:58:48.455" starttime="20190117 15:58:48.452"></status>
 </kw>
 <kw type="foritem" name="${i} = 6">
 <kw name="Get Row Values" library="ExcelLibrary">
@@ -303,8 +303,8 @@
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.401" level="INFO">${v} = [('A7', u'LOCALITY'), ('B7', u'MELBOURNE CITY')]</msg>
-<status status="PASS" endtime="20190117 15:51:50.401" starttime="20190117 15:51:50.401"></status>
+<msg timestamp="20190117 15:58:48.455" level="INFO">${v} = [('A7', u'LOCALITY'), ('B7', u'MELBOURNE CITY')]</msg>
+<status status="PASS" endtime="20190117 15:58:48.455" starttime="20190117 15:58:48.455"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -316,8 +316,8 @@
 <assign>
 <var>${key}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.401" level="INFO">${key} = LOCALITY</msg>
-<status status="PASS" endtime="20190117 15:51:50.401" starttime="20190117 15:51:50.401"></status>
+<msg timestamp="20190117 15:58:48.456" level="INFO">${key} = LOCALITY</msg>
+<status status="PASS" endtime="20190117 15:58:48.456" starttime="20190117 15:58:48.455"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -329,8 +329,8 @@
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.402" level="INFO">${value} = MELBOURNE CITY</msg>
-<status status="PASS" endtime="20190117 15:51:50.402" starttime="20190117 15:51:50.402"></status>
+<msg timestamp="20190117 15:58:48.456" level="INFO">${value} = MELBOURNE CITY</msg>
+<status status="PASS" endtime="20190117 15:58:48.456" starttime="20190117 15:58:48.456"></status>
 </kw>
 <kw name="Set To Dictionary" library="Collections">
 <doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
@@ -339,9 +339,9 @@
 <arg>${key}</arg>
 <arg>${value}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.402" starttime="20190117 15:51:50.402"></status>
+<status status="PASS" endtime="20190117 15:58:48.457" starttime="20190117 15:58:48.456"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.402" starttime="20190117 15:51:50.400"></status>
+<status status="PASS" endtime="20190117 15:58:48.457" starttime="20190117 15:58:48.455"></status>
 </kw>
 <kw type="foritem" name="${i} = 7">
 <kw name="Get Row Values" library="ExcelLibrary">
@@ -353,8 +353,8 @@
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.403" level="INFO">${v} = [('A8', u'CITY_NAME'), ('B8', u'Melbourne')]</msg>
-<status status="PASS" endtime="20190117 15:51:50.403" starttime="20190117 15:51:50.403"></status>
+<msg timestamp="20190117 15:58:48.457" level="INFO">${v} = [('A8', u'CITY_NAME'), ('B8', u'Melbourne')]</msg>
+<status status="PASS" endtime="20190117 15:58:48.457" starttime="20190117 15:58:48.457"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -366,8 +366,8 @@
 <assign>
 <var>${key}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.403" level="INFO">${key} = CITY_NAME</msg>
-<status status="PASS" endtime="20190117 15:51:50.403" starttime="20190117 15:51:50.403"></status>
+<msg timestamp="20190117 15:58:48.458" level="INFO">${key} = CITY_NAME</msg>
+<status status="PASS" endtime="20190117 15:58:48.458" starttime="20190117 15:58:48.457"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -379,8 +379,8 @@
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.404" level="INFO">${value} = Melbourne</msg>
-<status status="PASS" endtime="20190117 15:51:50.404" starttime="20190117 15:51:50.404"></status>
+<msg timestamp="20190117 15:58:48.458" level="INFO">${value} = Melbourne</msg>
+<status status="PASS" endtime="20190117 15:58:48.458" starttime="20190117 15:58:48.458"></status>
 </kw>
 <kw name="Set To Dictionary" library="Collections">
 <doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
@@ -389,9 +389,9 @@
 <arg>${key}</arg>
 <arg>${value}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.404" starttime="20190117 15:51:50.404"></status>
+<status status="PASS" endtime="20190117 15:58:48.458" starttime="20190117 15:58:48.458"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.404" starttime="20190117 15:51:50.402"></status>
+<status status="PASS" endtime="20190117 15:58:48.458" starttime="20190117 15:58:48.457"></status>
 </kw>
 <kw type="foritem" name="${i} = 8">
 <kw name="Get Row Values" library="ExcelLibrary">
@@ -403,8 +403,8 @@
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.405" level="INFO">${v} = [('A9', u''), ('B9', '')]</msg>
-<status status="PASS" endtime="20190117 15:51:50.405" starttime="20190117 15:51:50.404"></status>
+<msg timestamp="20190117 15:58:48.459" level="INFO">${v} = [('A9', u''), ('B9', '')]</msg>
+<status status="PASS" endtime="20190117 15:58:48.459" starttime="20190117 15:58:48.459"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -416,8 +416,8 @@
 <assign>
 <var>${key}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.405" level="INFO">${key} = </msg>
-<status status="PASS" endtime="20190117 15:51:50.405" starttime="20190117 15:51:50.405"></status>
+<msg timestamp="20190117 15:58:48.459" level="INFO">${key} = </msg>
+<status status="PASS" endtime="20190117 15:58:48.459" starttime="20190117 15:58:48.459"></status>
 </kw>
 <kw name="Read Cell Data By Coordinates" library="ExcelLibrary">
 <doc>Uses the column and row to return the data from that cell.</doc>
@@ -429,8 +429,8 @@
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.406" level="INFO">${value} = </msg>
-<status status="PASS" endtime="20190117 15:51:50.406" starttime="20190117 15:51:50.405"></status>
+<msg timestamp="20190117 15:58:48.460" level="INFO">${value} = </msg>
+<status status="PASS" endtime="20190117 15:58:48.460" starttime="20190117 15:58:48.460"></status>
 </kw>
 <kw name="Set To Dictionary" library="Collections">
 <doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
@@ -439,14 +439,14 @@
 <arg>${key}</arg>
 <arg>${value}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.406" starttime="20190117 15:51:50.406"></status>
+<status status="PASS" endtime="20190117 15:58:48.460" starttime="20190117 15:58:48.460"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.406" starttime="20190117 15:51:50.404"></status>
+<status status="PASS" endtime="20190117 15:58:48.460" starttime="20190117 15:58:48.459"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.406" starttime="20190117 15:51:50.390"></status>
+<status status="PASS" endtime="20190117 15:58:48.460" starttime="20190117 15:58:48.446"></status>
 </kw>
-<msg timestamp="20190117 15:51:50.407" level="INFO">${v} = {u'URL': u'http://v0.postcodeapi.com.au/suburbs/', u'POST_CODE': 3000.0, u'STATE_NAME': u'Victoria', u'ABBREVIATION': u'VIC', u'LOCALITY': u'MELBOURNE CITY', u'CITY_NAME': u'Melbourne', u'': ''}</msg>
-<status status="PASS" endtime="20190117 15:51:50.407" starttime="20190117 15:51:50.380"></status>
+<msg timestamp="20190117 15:58:48.461" level="INFO">${v} = {u'URL': u'http://v0.postcodeapi.com.au/suburbs/', u'POST_CODE': 3000.0, u'STATE_NAME': u'Victoria', u'ABBREVIATION': u'VIC', u'LOCALITY': u'MELBOURNE CITY', u'CITY_NAME': u'Melbourne', u'': ''}</msg>
+<status status="PASS" endtime="20190117 15:58:48.461" starttime="20190117 15:58:48.435"></status>
 </kw>
 <kw name="Get From Dictionary" library="Collections">
 <doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
@@ -457,8 +457,8 @@
 <assign>
 <var>${tmp}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.407" level="INFO">${tmp} = http://v0.postcodeapi.com.au/suburbs/</msg>
-<status status="PASS" endtime="20190117 15:51:50.407" starttime="20190117 15:51:50.407"></status>
+<msg timestamp="20190117 15:58:48.461" level="INFO">${tmp} = http://v0.postcodeapi.com.au/suburbs/</msg>
+<status status="PASS" endtime="20190117 15:58:48.461" starttime="20190117 15:58:48.461"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -466,8 +466,8 @@
 <arg>${URL}</arg>
 <arg>${tmp}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.407" level="INFO">${URL} = http://v0.postcodeapi.com.au/suburbs/</msg>
-<status status="PASS" endtime="20190117 15:51:50.407" starttime="20190117 15:51:50.407"></status>
+<msg timestamp="20190117 15:58:48.461" level="INFO">${URL} = http://v0.postcodeapi.com.au/suburbs/</msg>
+<status status="PASS" endtime="20190117 15:58:48.462" starttime="20190117 15:58:48.461"></status>
 </kw>
 <kw name="Get From Dictionary" library="Collections">
 <doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
@@ -478,8 +478,8 @@
 <assign>
 <var>${tmp}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.408" level="INFO">${tmp} = 3000.0</msg>
-<status status="PASS" endtime="20190117 15:51:50.408" starttime="20190117 15:51:50.407"></status>
+<msg timestamp="20190117 15:58:48.462" level="INFO">${tmp} = 3000.0</msg>
+<status status="PASS" endtime="20190117 15:58:48.462" starttime="20190117 15:58:48.462"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -487,8 +487,8 @@
 <arg>${POST_CODE}</arg>
 <arg>${tmp}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.408" level="INFO">${POST_CODE} = 3000.0</msg>
-<status status="PASS" endtime="20190117 15:51:50.408" starttime="20190117 15:51:50.408"></status>
+<msg timestamp="20190117 15:58:48.463" level="INFO">${POST_CODE} = 3000.0</msg>
+<status status="PASS" endtime="20190117 15:58:48.463" starttime="20190117 15:58:48.462"></status>
 </kw>
 <kw name="Get From Dictionary" library="Collections">
 <doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
@@ -499,8 +499,8 @@
 <assign>
 <var>${tmp}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.408" level="INFO">${tmp} = Victoria</msg>
-<status status="PASS" endtime="20190117 15:51:50.409" starttime="20190117 15:51:50.408"></status>
+<msg timestamp="20190117 15:58:48.463" level="INFO">${tmp} = Victoria</msg>
+<status status="PASS" endtime="20190117 15:58:48.463" starttime="20190117 15:58:48.463"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -508,8 +508,8 @@
 <arg>${STATE_NAME}</arg>
 <arg>${tmp}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.409" level="INFO">${STATE_NAME} = Victoria</msg>
-<status status="PASS" endtime="20190117 15:51:50.409" starttime="20190117 15:51:50.409"></status>
+<msg timestamp="20190117 15:58:48.464" level="INFO">${STATE_NAME} = Victoria</msg>
+<status status="PASS" endtime="20190117 15:58:48.464" starttime="20190117 15:58:48.463"></status>
 </kw>
 <kw name="Get From Dictionary" library="Collections">
 <doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
@@ -520,8 +520,8 @@
 <assign>
 <var>${tmp}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.409" level="INFO">${tmp} = MELBOURNE CITY</msg>
-<status status="PASS" endtime="20190117 15:51:50.409" starttime="20190117 15:51:50.409"></status>
+<msg timestamp="20190117 15:58:48.464" level="INFO">${tmp} = MELBOURNE CITY</msg>
+<status status="PASS" endtime="20190117 15:58:48.464" starttime="20190117 15:58:48.464"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -529,8 +529,8 @@
 <arg>${LOCALITY}</arg>
 <arg>${tmp}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.410" level="INFO">${LOCALITY} = MELBOURNE CITY</msg>
-<status status="PASS" endtime="20190117 15:51:50.410" starttime="20190117 15:51:50.409"></status>
+<msg timestamp="20190117 15:58:48.465" level="INFO">${LOCALITY} = MELBOURNE CITY</msg>
+<status status="PASS" endtime="20190117 15:58:48.465" starttime="20190117 15:58:48.464"></status>
 </kw>
 <kw name="Get From Dictionary" library="Collections">
 <doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
@@ -541,8 +541,8 @@
 <assign>
 <var>${tmp}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.410" level="INFO">${tmp} = Melbourne</msg>
-<status status="PASS" endtime="20190117 15:51:50.410" starttime="20190117 15:51:50.410"></status>
+<msg timestamp="20190117 15:58:48.465" level="INFO">${tmp} = Melbourne</msg>
+<status status="PASS" endtime="20190117 15:58:48.465" starttime="20190117 15:58:48.465"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -550,10 +550,10 @@
 <arg>${CITY_NAME}</arg>
 <arg>${tmp}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.411" level="INFO">${CITY_NAME} = Melbourne</msg>
-<status status="PASS" endtime="20190117 15:51:50.411" starttime="20190117 15:51:50.410"></status>
+<msg timestamp="20190117 15:58:48.465" level="INFO">${CITY_NAME} = Melbourne</msg>
+<status status="PASS" endtime="20190117 15:58:48.465" starttime="20190117 15:58:48.465"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:50.411" starttime="20190117 15:51:50.375"></status>
+<status status="PASS" endtime="20190117 15:58:48.465" starttime="20190117 15:58:48.428"></status>
 </kw>
 <kw name="Get Json Collection From a URL" library="get_Json_data">
 <arguments>
@@ -571,8 +571,8 @@
 <assign>
 <var>${postCode}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.412" level="INFO">${postCode} = 3000</msg>
-<status status="PASS" endtime="20190117 15:51:50.412" starttime="20190117 15:51:50.411"></status>
+<msg timestamp="20190117 15:58:48.467" level="INFO">${postCode} = 3000</msg>
+<status status="PASS" endtime="20190117 15:58:48.467" starttime="20190117 15:58:48.466"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -583,23 +583,23 @@
 <assign>
 <var>${message}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.412" level="INFO">${message} = [u'URL: http://v0.postcodeapi.com.au/suburbs/', u'POST_CODE: 3000']</msg>
-<status status="PASS" endtime="20190117 15:51:50.412" starttime="20190117 15:51:50.412"></status>
+<msg timestamp="20190117 15:58:48.467" level="INFO">${message} = [u'URL: http://v0.postcodeapi.com.au/suburbs/', u'POST_CODE: 3000']</msg>
+<status status="PASS" endtime="20190117 15:58:48.467" starttime="20190117 15:58:48.467"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${message}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:50.413" starttime="20190117 15:51:50.412"></status>
+<status status="PASS" endtime="20190117 15:58:48.468" starttime="20190117 15:58:48.467"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${message}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:50.413" level="INFO">[u'URL: http://v0.postcodeapi.com.au/suburbs/', u'POST_CODE: 3000']</msg>
-<status status="PASS" endtime="20190117 15:51:50.413" starttime="20190117 15:51:50.413"></status>
+<msg timestamp="20190117 15:58:48.468" level="INFO">[u'URL: http://v0.postcodeapi.com.au/suburbs/', u'POST_CODE: 3000']</msg>
+<status status="PASS" endtime="20190117 15:58:48.468" starttime="20190117 15:58:48.468"></status>
 </kw>
 <kw name="Create Session" library="RequestsLibrary">
 <doc>Create Session: create a HTTP session to a server</doc>
@@ -610,9 +610,9 @@
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20190117 15:51:50.414" level="INFO">Creating Session using : alias=postcodeapi, url=http://v0.postcodeapi.com.au/suburbs/, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<msg timestamp="20190117 15:51:50.414" level="INFO">${result} = &lt;requests.sessions.Session object at 0x0000000005A09CF8&gt;</msg>
-<status status="PASS" endtime="20190117 15:51:50.414" starttime="20190117 15:51:50.414"></status>
+<msg timestamp="20190117 15:58:48.469" level="INFO">Creating Session using : alias=postcodeapi, url=http://v0.postcodeapi.com.au/suburbs/, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<msg timestamp="20190117 15:58:48.469" level="INFO">${result} = &lt;requests.sessions.Session object at 0x0000000005126048&gt;</msg>
+<status status="PASS" endtime="20190117 15:58:48.469" starttime="20190117 15:58:48.468"></status>
 </kw>
 <kw name="Get Request" library="RequestsLibrary">
 <doc>Send a GET request on the session object found using the</doc>
@@ -623,9 +623,9 @@
 <assign>
 <var>${resp}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.187" level="INFO">Get Request using : alias=postcodeapi, uri=/3000.json, headers=None json=None</msg>
-<msg timestamp="20190117 15:51:51.188" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
-<status status="PASS" endtime="20190117 15:51:51.188" starttime="20190117 15:51:50.414"></status>
+<msg timestamp="20190117 15:58:49.457" level="INFO">Get Request using : alias=postcodeapi, uri=/3000.json, headers=None json=None</msg>
+<msg timestamp="20190117 15:58:49.457" level="INFO">${resp} = &lt;Response [200]&gt;</msg>
+<status status="PASS" endtime="20190117 15:58:49.457" starttime="20190117 15:58:48.469"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -633,10 +633,10 @@
 <arg>${resp.status_code}</arg>
 <arg>200</arg>
 </arguments>
-<msg timestamp="20190117 15:51:51.189" level="INFO">Argument types are:
+<msg timestamp="20190117 15:58:49.458" level="INFO">Argument types are:
 &lt;type 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" endtime="20190117 15:51:51.189" starttime="20190117 15:51:51.188"></status>
+<status status="PASS" endtime="20190117 15:58:49.459" starttime="20190117 15:58:49.458"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
@@ -644,26 +644,26 @@
 <arg>${json_object}</arg>
 <arg>${resp.json()}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:51.191" level="INFO">${json_object} = [{u'name': u'Melbourne', u'locality': u'MELBOURNE CITY', u'longitude': 144.9729, u'state': {u'abbreviation': u'VIC', u'name': u'Victoria'}, u'postcode': 3000, u'latitude': -37.8232}]</msg>
-<status status="PASS" endtime="20190117 15:51:51.191" starttime="20190117 15:51:51.189"></status>
+<msg timestamp="20190117 15:58:49.461" level="INFO">${json_object} = [{u'name': u'Melbourne', u'locality': u'MELBOURNE CITY', u'longitude': 144.9729, u'state': {u'abbreviation': u'VIC', u'name': u'Victoria'}, u'postcode': 3000, u'latitude': -37.8232}]</msg>
+<status status="PASS" endtime="20190117 15:58:49.461" starttime="20190117 15:58:49.459"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${json_object}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:51.191" level="INFO">[{u'name': u'Melbourne', u'locality': u'MELBOURNE CITY', u'longitude': 144.9729, u'state': {u'abbreviation': u'VIC', u'name': u'Victoria'}, u'postcode': 3000, u'latitude': -37.8232}]</msg>
-<status status="PASS" endtime="20190117 15:51:51.191" starttime="20190117 15:51:51.191"></status>
+<msg timestamp="20190117 15:58:49.462" level="INFO">[{u'name': u'Melbourne', u'locality': u'MELBOURNE CITY', u'longitude': 144.9729, u'state': {u'abbreviation': u'VIC', u'name': u'Victoria'}, u'postcode': 3000, u'latitude': -37.8232}]</msg>
+<status status="PASS" endtime="20190117 15:58:49.462" starttime="20190117 15:58:49.462"></status>
 </kw>
-<msg timestamp="20190117 15:51:51.191" level="INFO">${json_object} = [{u'name': u'Melbourne', u'locality': u'MELBOURNE CITY', u'longitude': 144.9729, u'state': {u'abbreviation': u'VIC', u'name': u'Victoria'}, u'postcode': 3000, u'latitude': -37.8232}]</msg>
-<status status="PASS" endtime="20190117 15:51:51.191" starttime="20190117 15:51:50.411"></status>
+<msg timestamp="20190117 15:58:49.463" level="INFO">${json_object} = [{u'name': u'Melbourne', u'locality': u'MELBOURNE CITY', u'longitude': 144.9729, u'state': {u'abbreviation': u'VIC', u'name': u'Victoria'}, u'postcode': 3000, u'latitude': -37.8232}]</msg>
+<status status="PASS" endtime="20190117 15:58:49.463" starttime="20190117 15:58:48.466"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${json_object}</arg>
 </arguments>
-<status status="PASS" endtime="20190117 15:51:51.193" starttime="20190117 15:51:51.192"></status>
+<status status="PASS" endtime="20190117 15:58:49.474" starttime="20190117 15:58:49.465"></status>
 </kw>
 <kw name="Get City Name" library="get_Json_data">
 <assign>
@@ -678,8 +678,8 @@
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.227" level="INFO">${value} = [u'Melbourne', u'Victoria']</msg>
-<status status="PASS" endtime="20190117 15:51:51.227" starttime="20190117 15:51:51.193"></status>
+<msg timestamp="20190117 15:58:49.508" level="INFO">${value} = [u'Melbourne', u'Victoria']</msg>
+<status status="PASS" endtime="20190117 15:58:49.508" starttime="20190117 15:58:49.475"></status>
 </kw>
 <kw name="Convert To List" library="Collections">
 <doc>Converts the given ``item`` to a Python ``list`` type.</doc>
@@ -689,8 +689,8 @@
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.227" level="INFO">${v} = [u'Melbourne', u'Victoria']</msg>
-<status status="PASS" endtime="20190117 15:51:51.227" starttime="20190117 15:51:51.227"></status>
+<msg timestamp="20190117 15:58:49.509" level="INFO">${v} = [u'Melbourne', u'Victoria']</msg>
+<status status="PASS" endtime="20190117 15:58:49.509" starttime="20190117 15:58:49.508"></status>
 </kw>
 <kw name="Get From List" library="Collections">
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
@@ -701,20 +701,20 @@
 <assign>
 <var>${cityName}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.228" level="INFO">${cityName} = Melbourne</msg>
-<status status="PASS" endtime="20190117 15:51:51.228" starttime="20190117 15:51:51.227"></status>
+<msg timestamp="20190117 15:58:49.510" level="INFO">${cityName} = Melbourne</msg>
+<status status="PASS" endtime="20190117 15:58:49.510" starttime="20190117 15:58:49.509"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>List: ${v}\n value:${cityName}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:51.228" level="INFO">List: [u'Melbourne', u'Victoria']
+<msg timestamp="20190117 15:58:49.511" level="INFO">List: [u'Melbourne', u'Victoria']
 value:Melbourne</msg>
-<status status="PASS" endtime="20190117 15:51:51.228" starttime="20190117 15:51:51.228"></status>
+<status status="PASS" endtime="20190117 15:58:49.511" starttime="20190117 15:58:49.510"></status>
 </kw>
-<msg timestamp="20190117 15:51:51.228" level="INFO">${city_name} = Melbourne</msg>
-<status status="PASS" endtime="20190117 15:51:51.228" starttime="20190117 15:51:51.193"></status>
+<msg timestamp="20190117 15:58:49.511" level="INFO">${city_name} = Melbourne</msg>
+<status status="PASS" endtime="20190117 15:58:49.511" starttime="20190117 15:58:49.474"></status>
 </kw>
 <kw name="Get State Name" library="get_Json_data">
 <assign>
@@ -729,8 +729,8 @@ value:Melbourne</msg>
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.257" level="INFO">${value} = [u'Victoria']</msg>
-<status status="PASS" endtime="20190117 15:51:51.257" starttime="20190117 15:51:51.229"></status>
+<msg timestamp="20190117 15:58:49.539" level="INFO">${value} = [u'Victoria']</msg>
+<status status="PASS" endtime="20190117 15:58:49.539" starttime="20190117 15:58:49.512"></status>
 </kw>
 <kw name="Convert To List" library="Collections">
 <doc>Converts the given ``item`` to a Python ``list`` type.</doc>
@@ -740,8 +740,8 @@ value:Melbourne</msg>
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.257" level="INFO">${v} = [u'Victoria']</msg>
-<status status="PASS" endtime="20190117 15:51:51.258" starttime="20190117 15:51:51.257"></status>
+<msg timestamp="20190117 15:58:49.539" level="INFO">${v} = [u'Victoria']</msg>
+<status status="PASS" endtime="20190117 15:58:49.539" starttime="20190117 15:58:49.539"></status>
 </kw>
 <kw name="Get From List" library="Collections">
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
@@ -752,21 +752,21 @@ value:Melbourne</msg>
 <assign>
 <var>${stateName}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.258" level="INFO">${stateName} = Victoria</msg>
-<status status="PASS" endtime="20190117 15:51:51.258" starttime="20190117 15:51:51.258"></status>
+<msg timestamp="20190117 15:58:49.540" level="INFO">${stateName} = Victoria</msg>
+<status status="PASS" endtime="20190117 15:58:49.540" starttime="20190117 15:58:49.539"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${stateName}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:51.258" level="INFO">Victoria</msg>
-<status status="PASS" endtime="20190117 15:51:51.258" starttime="20190117 15:51:51.258"></status>
+<msg timestamp="20190117 15:58:49.540" level="INFO">Victoria</msg>
+<status status="PASS" endtime="20190117 15:58:49.540" starttime="20190117 15:58:49.540"></status>
 </kw>
-<msg timestamp="20190117 15:51:51.259" level="INFO">${state_name} = Victoria</msg>
-<status status="PASS" endtime="20190117 15:51:51.259" starttime="20190117 15:51:51.229"></status>
+<msg timestamp="20190117 15:58:49.540" level="INFO">${state_name} = Victoria</msg>
+<status status="PASS" endtime="20190117 15:58:49.540" starttime="20190117 15:58:49.512"></status>
 </kw>
-<kw name="Get State abbreviation" library="get_Json_data">
+<kw name="Get State Abbreviation" library="get_Json_data">
 <assign>
 <var>${state_abbr}</var>
 </assign>
@@ -779,8 +779,8 @@ value:Melbourne</msg>
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.286" level="INFO">${value} = [u'VIC']</msg>
-<status status="PASS" endtime="20190117 15:51:51.286" starttime="20190117 15:51:51.260"></status>
+<msg timestamp="20190117 15:58:49.567" level="INFO">${value} = [u'VIC']</msg>
+<status status="PASS" endtime="20190117 15:58:49.567" starttime="20190117 15:58:49.541"></status>
 </kw>
 <kw name="Convert To List" library="Collections">
 <doc>Converts the given ``item`` to a Python ``list`` type.</doc>
@@ -790,8 +790,8 @@ value:Melbourne</msg>
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.286" level="INFO">${v} = [u'VIC']</msg>
-<status status="PASS" endtime="20190117 15:51:51.286" starttime="20190117 15:51:51.286"></status>
+<msg timestamp="20190117 15:58:49.567" level="INFO">${v} = [u'VIC']</msg>
+<status status="PASS" endtime="20190117 15:58:49.567" starttime="20190117 15:58:49.567"></status>
 </kw>
 <kw name="Get From List" library="Collections">
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
@@ -802,39 +802,35 @@ value:Melbourne</msg>
 <assign>
 <var>${stateAbbr}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.287" level="INFO">${stateAbbr} = VIC</msg>
-<status status="PASS" endtime="20190117 15:51:51.287" starttime="20190117 15:51:51.286"></status>
+<msg timestamp="20190117 15:58:49.568" level="INFO">${stateAbbr} = VIC</msg>
+<status status="PASS" endtime="20190117 15:58:49.568" starttime="20190117 15:58:49.567"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${stateAbbr}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:51.288" level="INFO">VIC</msg>
-<status status="PASS" endtime="20190117 15:51:51.288" starttime="20190117 15:51:51.287"></status>
+<msg timestamp="20190117 15:58:49.568" level="INFO">VIC</msg>
+<status status="PASS" endtime="20190117 15:58:49.568" starttime="20190117 15:58:49.568"></status>
 </kw>
-<msg timestamp="20190117 15:51:51.288" level="INFO">${state_abbr} = VIC</msg>
-<status status="PASS" endtime="20190117 15:51:51.288" starttime="20190117 15:51:51.259"></status>
+<msg timestamp="20190117 15:58:49.568" level="INFO">${state_abbr} = VIC</msg>
+<status status="PASS" endtime="20190117 15:58:49.568" starttime="20190117 15:58:49.541"></status>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>City: ${city_name} | State: ${state_name} | Abbr: ${state_abbr}</arg>
-</arguments>
-<status status="PASS" endtime="20190117 15:51:51.290" starttime="20190117 15:51:51.289"></status>
-</kw>
-<kw name="Get State Name" library="get_Json_data">
+<kw name="Get Locality" library="get_Json_data">
+<assign>
+<var>${state_locality}</var>
+</assign>
 <kw name="Get Value From Json" library="JSONLibrary">
 <doc>Get Value From JSON using JSONPath</doc>
 <arguments>
 <arg>${json_object}</arg>
-<arg>$..state.name</arg>
+<arg>$..locality</arg>
 </arguments>
 <assign>
 <var>${value}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.314" level="INFO">${value} = [u'Victoria']</msg>
-<status status="PASS" endtime="20190117 15:51:51.314" starttime="20190117 15:51:51.290"></status>
+<msg timestamp="20190117 15:58:49.595" level="INFO">${value} = [u'MELBOURNE CITY']</msg>
+<status status="PASS" endtime="20190117 15:58:49.595" starttime="20190117 15:58:49.569"></status>
 </kw>
 <kw name="Convert To List" library="Collections">
 <doc>Converts the given ``item`` to a Python ``list`` type.</doc>
@@ -844,8 +840,8 @@ value:Melbourne</msg>
 <assign>
 <var>${v}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.314" level="INFO">${v} = [u'Victoria']</msg>
-<status status="PASS" endtime="20190117 15:51:51.314" starttime="20190117 15:51:51.314"></status>
+<msg timestamp="20190117 15:58:49.596" level="INFO">${v} = [u'MELBOURNE CITY']</msg>
+<status status="PASS" endtime="20190117 15:58:49.596" starttime="20190117 15:58:49.595"></status>
 </kw>
 <kw name="Get From List" library="Collections">
 <doc>Returns the value specified with an ``index`` from ``list``.</doc>
@@ -854,24 +850,32 @@ value:Melbourne</msg>
 <arg>0</arg>
 </arguments>
 <assign>
-<var>${stateName}</var>
+<var>${stateAbbr}</var>
 </assign>
-<msg timestamp="20190117 15:51:51.315" level="INFO">${stateName} = Victoria</msg>
-<status status="PASS" endtime="20190117 15:51:51.315" starttime="20190117 15:51:51.315"></status>
+<msg timestamp="20190117 15:58:49.597" level="INFO">${stateAbbr} = MELBOURNE CITY</msg>
+<status status="PASS" endtime="20190117 15:58:49.597" starttime="20190117 15:58:49.596"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
-<arg>${stateName}</arg>
+<arg>${stateAbbr}</arg>
 </arguments>
-<msg timestamp="20190117 15:51:51.315" level="INFO">Victoria</msg>
-<status status="PASS" endtime="20190117 15:51:51.315" starttime="20190117 15:51:51.315"></status>
+<msg timestamp="20190117 15:58:49.597" level="INFO">MELBOURNE CITY</msg>
+<status status="PASS" endtime="20190117 15:58:49.597" starttime="20190117 15:58:49.597"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:51.315" starttime="20190117 15:51:51.290"></status>
+<msg timestamp="20190117 15:58:49.597" level="INFO">${state_locality} = MELBOURNE CITY</msg>
+<status status="PASS" endtime="20190117 15:58:49.597" starttime="20190117 15:58:49.569"></status>
 </kw>
-<status status="PASS" endtime="20190117 15:51:51.316" critical="yes" starttime="20190117 15:51:50.374"></status>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>City: ${city_name} | State: ${state_name} | Abbr: ${state_abbr} | Locality: ${state_locality}</arg>
+</arguments>
+<status status="PASS" endtime="20190117 15:58:49.599" starttime="20190117 15:58:49.597"></status>
+</kw>
+<status status="PASS" endtime="20190117 15:58:49.599" critical="yes" starttime="20190117 15:58:48.427"></status>
 </test>
-<status status="PASS" endtime="20190117 15:51:51.319" starttime="20190117 15:51:49.831"></status>
+<status status="PASS" endtime="20190117 15:58:49.601" starttime="20190117 15:58:47.888"></status>
 </suite>
 <statistics>
 <total>

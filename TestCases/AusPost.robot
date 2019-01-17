@@ -13,8 +13,8 @@ Validate Data From Post API
     ${city_name}        Get City Name
     ${state_name}       Get State Name
     ${state_abbr}       Get State Abbreviation
-    
-    Log To Console   City: ${city_name} | State: ${state_name} | Abbr: ${state_abbr}
+    ${state_locality}   Get Locality
+    Log To Console   City: ${city_name} | State: ${state_name} | Abbr: ${state_abbr} | Locality: ${state_locality}
     
 
       
